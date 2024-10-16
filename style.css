@@ -1,0 +1,102 @@
+body {
+  all: unset;
+  background: url(./assets/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_small.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.container__main {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container__main .main__header {
+  height: min-content;
+  width: 80%;
+  border: 1px solid black;
+}
+.container__main .main__header .logo {
+  height: 80px;
+}
+.container__main .main__signin {
+  border: 1px solid black;
+  width: 350px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container__main .main__signin h1 {
+  color: white;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+.container__main .main__signin p, .container__main .main__signin a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.container__main .main__signin form .inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+}
+.container__main .main__signin form .inputs input {
+  padding: 15px;
+  outline: rgb(112, 108, 108);
+}
+.container__main .main__signin form .inputs input:focus {
+  border: 1px solid white;
+}
+.container__main .main__signin form .inputs label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.container__main .main__signin form .inputs button, .container__main .main__signin form .inputs a {
+  font-weight: bold;
+  padding: 12px 20px;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+}
+.container__main .main__signin form .inputs button {
+  color: white;
+}
+.container__main .main__signin form .inputs button[type=submit] {
+  background-color: #e50914;
+}
+.container__main .main__signin form .inputs button[type=button] {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.container__main .main__signin form .inputs input, .container__main .main__signin form .inputs button {
+  border: none;
+  border-radius: 5px;
+}
+.container__main .main__signin form footer .signup, .container__main .main__signin form footer .checkbox {
+  display: flex;
+  font-size: 16px;
+}
+.container__main .main__signin form footer .checkbox input {
+  font-weight: 500;
+  margin: 10px 10px 10px 0px;
+}
+.container__main .main__signin form footer .signup {
+  text-align: center;
+  place-items: center;
+}
+.container__main .main__signin form footer .signup p, .container__main .main__signin form footer .signup a {
+  margin-right: 10px;
+}
+.container__main .main__signin form footer .TermsandService {
+  font-size: small;
+}
+.container__main .main__signin form footer .TermsandService p {
+  text-align: left;
+}
+.container__main .main__signin form footer .TermsandService p a {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
