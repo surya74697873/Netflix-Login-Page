@@ -1,11 +1,14 @@
 body{
     all: unset;
     background: url(./assets/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_small.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .container {
 
+  height: 100%;
   &__main {
     display: flex;
     flex-direction: column;
@@ -14,10 +17,10 @@ body{
 
     .main__header{
         height: min-content;
-        width: 80%;
-        border: 1px solid black;
+        width: 100%;
         .logo{
             height: 80px;
+            margin-left: 1rem;
         }
     }
 
@@ -25,7 +28,7 @@ body{
         border: 1px solid black;
         width: 350px;
         padding: 50px;
-        background-color: rgba($color: #000000, $alpha: 0.8);
+        background-color: rgba($color: #000000, $alpha: 0.7);
 
         h1{
             color: white;
@@ -80,7 +83,8 @@ body{
                     }
 
                     &[type='button']{
-                        background-color: rgba($color: white, $alpha: 0.2);
+                        background-color:
+                        white;
                     }
                 }
 
@@ -118,14 +122,14 @@ body{
                 .TermsandService{
                     font-size: small;
                     p{
-
                         text-align: left;
                         a{
                             color: blue;
                         }
-
                     }
-
+                    #para{
+                      visibility: none;
+                    }
                 }
             }
         }
